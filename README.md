@@ -1,11 +1,24 @@
-# ansible-experiments
-:microscope: Ansible experimentation
+# Ansible Playbook Experiments
 
-![](https://thumbs.gfycat.com/FalseGranularDogwoodclubgall-size_restricted.gif)
+Paid for by [Bryan Black](https://bringyourwallet.com/donate), for the benefit of all lazy sysadmins. <sub>[What's ansible?](https://docs.ansible.com/)</sub>
+
+Special thanks to the helpful devs that contributed their expertise.
 
 
-### [Use _Ansible_ to install OS updates](/package_updates)
+## What can these playbooks do?
 
+Features                                         | Ubuntu | Debian | FreeBSD | 
+-------------------------------------------------|--------|--------|---------|
+💾 [Update packages and OS][pkg_upd]                | ✅     | ✅     | ✅     |
+☁️ [Make & Cleanup EC2 AMI snapshots][ami]          | ✅     | ✅     | ✅     |
+🎛 [User account and dot file management][usr_mgmt] | ✅     | ✅     | ✅     |
+
+[pkg_upd]: /package_updates
+[ami]: /cleanup_ami_snapshots
+[usr_mgmt]: /add-users-groups-authorized_keys-dot-files
+
+---
+![](https://cdn.ipfu.org/git/assets/gif/shell-ansible-experiments.gif)
 
 ## Contributors
 
@@ -37,7 +50,7 @@ $50/month  | [Tugger Hosting][thgh]    | [tuggerhosting.com][th]
 
 ## Support Development
 
-### **[Support Now](https://reelsense.tv/donate)**
+### **[Support Now](https://bringyourwallet.com/donate)**
 
 
 ## Community Discussion
